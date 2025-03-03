@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Duc Vu</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="css/vendor.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/scrollbar.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" defer></script>
+</head>
+
+<body class="bg-body homepage post-template" data-bs-spy="scroll" data-bs-target="#header-nav" tabindex="0">
+  <a class="menu-btn"><span></span></a>
+
+  <div class="container-fluid overflow-hidden">
+
+    <header id="header-nav" class="col-lg-2 position-fixed px-5 bg-white h-100">
+      <div class="header-wrap d-flex flex-column justify-content-between h-100">
+        <div class="navigation">
+          <div class="site-logo mt-5">
+            <p class="fs-1"><a href="index.html">Duc Vu</a></p>
+          </div>
+
+          <!-- Menu -->
+          <nav id="one-page-menu" class="vertical-menu my-5">
+            <ul class="menu-list list-unstyled">
+              <li><a href="#home" class="nav-link">Home</a></li>
+              <li><a href="#about" class="nav-link">About</a></li>
+              <li><a href="#experience" class="nav-link">Experience</a></li>
+              <li><a href="#portfolio" class="nav-link">Project</a></li>
+              <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="mt-5">
+          <div class="email-links">
+            <a href="tel:0474819999" class=" d-flex">0474 819 999</a>
+          </div>
+          <div class="email-links">
+            <a href="mailto:ducvupprrt@gmail.com" class="pb-3 mb-3 border-bottom d-flex">ducvupprrt@gmail.com</a>
+          </div>
+          <ul class="list-unstyled d-flex justify-content-start flex-wrap gap-3">
+            <li>
+              <a href="https://www.linkedin.com/in/ducv/" class="text-dark" target="_blank" >
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18.72 3.99997H5.37C5.19793 3.99191 5.02595 4.01786 4.86392 4.07635C4.70189 4.13484 4.55299 4.22471 4.42573 4.34081C4.29848 4.45692 4.19537 4.59699 4.12232 4.75299C4.04927 4.909 4.0077 5.07788 4 5.24997V18.63C4.01008 18.9901 4.15766 19.3328 4.41243 19.5875C4.6672 19.8423 5.00984 19.9899 5.37 20H18.72C19.0701 19.9844 19.4002 19.8322 19.6395 19.5761C19.8788 19.32 20.0082 18.9804 20 18.63V5.24997C20.0029 5.08247 19.9715 4.91616 19.9078 4.76122C19.8441 4.60629 19.7494 4.466 19.6295 4.34895C19.5097 4.23191 19.3672 4.14059 19.2108 4.08058C19.0544 4.02057 18.8874 3.99314 18.72 3.99997ZM9 17.34H6.67V10.21H9V17.34ZM7.89 9.12997C7.72741 9.13564 7.5654 9.10762 7.41416 9.04768C7.26291 8.98774 7.12569 8.89717 7.01113 8.78166C6.89656 8.66615 6.80711 8.5282 6.74841 8.37647C6.6897 8.22474 6.66301 8.06251 6.67 7.89997C6.66281 7.73567 6.69004 7.57169 6.74995 7.41854C6.80986 7.26538 6.90112 7.12644 7.01787 7.01063C7.13463 6.89481 7.2743 6.80468 7.42793 6.74602C7.58157 6.68735 7.74577 6.66145 7.91 6.66997C8.07259 6.66431 8.2346 6.69232 8.38584 6.75226C8.53709 6.8122 8.67431 6.90277 8.78887 7.01828C8.90344 7.13379 8.99289 7.27174 9.05159 7.42347C9.1103 7.5752 9.13699 7.73743 9.13 7.89997C9.13719 8.06427 9.10996 8.22825 9.05005 8.3814C8.99014 8.53456 8.89888 8.6735 8.78213 8.78931C8.66537 8.90513 8.5257 8.99526 8.37207 9.05392C8.21843 9.11259 8.05423 9.13849 7.89 9.12997ZM17.34 17.34H15V13.44C15 12.51 14.67 11.87 13.84 11.87C13.5822 11.8722 13.3313 11.9541 13.1219 12.1045C12.9124 12.2549 12.7546 12.4664 12.67 12.71C12.605 12.8926 12.5778 13.0865 12.59 13.28V17.34H10.29V10.21H12.59V11.21C12.7945 10.8343 13.0988 10.5225 13.4694 10.3089C13.84 10.0954 14.2624 9.98848 14.69 9.99997C16.2 9.99997 17.34 11 17.34 13.13V17.34Z" fill="#000000"/>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:ducvupprrt@gmail.com" class="text-dark" target="_blank">
+                <svg fill="#000000" width="24" height="24" viewBox="0 0 14 14" role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path d="m 13,3.25 0,7.5 c 0,0.425 -0.325,0.75 -0.75,0.75 l -0.75,0 0,-6.8065 L 7,7.925 2.5,4.6935 2.5,11.5 1.75,11.5 C 1.3245,11.5 1,11.175 1,10.75 L 1,3.25 C 1,3.0375 1.081,2.85 1.2155,2.716 1.35,2.58 1.538,2.5 1.75,2.5 L 2,2.5 7,6.125 12,2.5 l 0.25,0 c 0.2125,0 0.4,0.081 0.5345,0.216 C 12.9195,2.85 13,3.0375 13,3.25 Z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Duc-V" class="text-dark" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main class="col-lg-10 offset-lg-2">
+      <div class="container">
+
+        <!-- content wrapper -->
+        <div class="justify-content-center px-1 mx-1 px-xl-5 mx-xl-5">
+
+          <section id="home" class="py-5 bg-text" data-text="01">
+            <div class="row">
+              <!-- <div class="col-lg-6">
+                <div class="banner-image text-center" data-aos="fade-right">
+                  <img src="images/image.png" alt="banner" class="img-fluid avatar">
+                </div>
+              </div> -->
+              <div class="col-lg-6">
+                <div class="banner-content my-1 pt-1 my-lg-5 pt-lg-5" data-aos="fade-in">
+                  <span class="text-muted text-uppercase">Software Developer / Web Developer</span>
+                  <h1 class="banner-title display-xl lh-1 txt-fx slide-up">Duc Vu</h1>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-3">
+              <div class="col-lg-3">
+                <div class="icon-box" data-aos="fade-up">
+                  <span>01</span>
+                  <h3 class="sub-heading">Software Developer</h3>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <span>02</span>
+                  <h3 class="sub-heading">Front-end Developer</h3>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <a href="#portfolio" class="btn btn-dark text-uppercase py-4 px-5 rounded-2" data-aos="fade-up" data-aos-delay="300">View My Work</a>
+              </div>
+            </div>
+          </section>
+
+          <!-- Introduction Section -->
+          <section id="about" class="my-5 py-5 bg-text" data-text="02">
+            <div class="row justify-content-center mb-5">
+              <div class="col-lg-8" data-aos="fade-up">
+                <span class="text-muted text-uppercase">introduction</span>
+                <h2 class="display-1 txt-fx slide-up m-0">Creatively</h2>
+                <h2 class="display-1 txt-fx slide-up">Collaborative</h2>
+                <h2 class="display-1 txt-fx slide-up">Adaptive</h2>
+                <h2 class="display-1 txt-fx slide-up">Resilience</h2>
+                <p>As a driven and forward-thinking software developer, 
+                  I excel in building advanced website interfaces with NextJS, React and .NET. 
+                  Skilled in problem-solving and innovative design, I focus on delivering top-tier, 
+                  user-focused solutions using the latest technologies. My passion for creating outstanding
+                   user experiences is complemented by my commitment to ongoing growth. I’m enthusiastic about 
+                   leveraging my skills, embracing new opportunities, and making a significant impact in a 
+                   full-stack developer role. Dedicated to refining my abilities, I aim to drive success for 
+                   both myself and the organization.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <h3 class="info-title" data-aos="fade-up">Technical Skills</h3>
+                <div class="info-element py-4" data-aos="fade-up">
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <th scope="row">Languages</th>
+                        <td>Java, Python, JavaScript, C++, C#, HTML, CSS</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Database</th>
+                        <td>MySQL, MongoDB, PostgreSQL</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Technical Tools</th>
+                        <td>Git, React, Nextjs, .NET</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Cloud</th>
+                        <td>AWS</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <h3 class="info-title" data-aos="fade-up">Soft Skills</h3>
+                <div class="info-element py-4" data-aos="fade-up">
+                  <ul>
+                    <li>Communication</li>
+                    <li>Adaptability</li>
+                    <li>Continuous Learning</li>
+                    <li>Teamwork</li>
+                    <li>Analysis</li>
+                    <li>Detail-oriented</li>
+                    <li>Empathy</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Skill, Experience, Reference Section -->
+          <section id="experience" class="my-5 py-5 bg-text" data-text="03">
+            <div class="row d-flex flex-wrap" data-aos="fade-up">
+              <h2 class="display-4 txt-fx slide-up">Experiences</h2>
+              <div class="col-lg-6 pb-5">
+                <div class="data-info py-3" data-aos="fade-up" data-aos-delay="200">
+                  <span class="meta-date">Dec 2024 - Present</span>
+                  <h3 class="info-title m-1">Software Developer</h3>
+                  <h4 class="mb-3 fs-5">Jung Talents</h4>
+                  <p class="m-0 fw-bold fs-6">Responsibilities:</p>
+                  <ul>
+                    <li>Built and maintain applications using <strong>.NET frameworks (ASP.NET Core, MVC, Web API)</strong>.</li>
+                    <li>Developed server-side logic and integrate with <strong>databases (MongoDB, PostgreSQL)</strong>.</li>
+                    <li>Deployed applications to cloud platforms <strong>(AWS, Azure)</strong>.</li>
+                    <li>Implemented <strong>unit and integration tests</strong> to ensure code reliability.</li>
+                    <li>Collaborated with teams, write clean code, participate in code reviews to maintain high standards.</li>
+                  </ul>
+                  <p class="m-0 fw-bold fs-6">Achievements:</p>
+                  <ul>
+                    <li>Gained practical knowledge and industry standards to further develop my skills.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-6 pb-5">
+                <div class="data-info py-3" data-aos="fade-up" data-aos-delay="300">
+                  <span class="meta-date">Jan 2024 - June 2024</span>
+                  <h3 class="info-title">Software Engineer Intern</h3>
+                  <h4 class="mb-3 fs-5">Sohog Yum - RMIT Capstone client</h4>
+                  <p class="m-0 fw-bold fs-6">Responsibilities:</p>
+                  <ul>
+                    <li>Developed <strong>backend features</strong> for a music therapy platform using <strong>.NET Core</strong>, focusing on playlist management for student wellness</li>
+                    <li>Designed and implemented <strong>message-driven architectures with .NET framework</strong>, enhancing system reliability for playlist updates and notifications.</li>
+                    <li>Integrated <strong>AWS RDS (PostgreSQL) and DynamoDB</strong> for efficient storage and retrieval of music therapy data, ensuring scalability.</li>
+                    <li>Built <strong>RESTful APIs with .NET Core </strong>to support music therapy features, optimizing database queries for performance.</li>
+                    <li>Wrote <strong>unit tests and documentation for NET modules and AWS integrations</strong>, maintaining code quality in a budget-conscious project.</li>
+                  </ul>
+                  <p class="m-0 fw-bold fs-6">Achievements:</p>
+                  <ul>
+                    <li>Developed a message-driven backend architectures that can handle up to 300 RPS (requests per second) with low latency.</li>
+                    <li>Fully documented the backend and handed it over to the team leader..</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row d-flex flex-wrap" data-aos="fade-up">
+              <div class="col-lg-6 pb-5">
+                <!-- <span class="text-muted text-uppercase">BIODATA</span> -->
+                <h2 class="display-4 txt-fx slide-up">Education</h2>
+                <div class="data-info py-3" data-aos="fade-up">
+                  <span class="meta-date">2021 - 2024</span>
+                  <h3 class="info-title">Bachelor in Computer Science</h3>
+                  <p>RMIT University</p>
+                </div>
+              </div>
+              <div class="col-lg-6 pb-5">
+                <h2 class="display-4 txt-fx slide-up">References</h2>
+                <div class="data-info py-3" data-aos="fade-up" data-aos-delay="200">
+                  <h3 class="info-title">Mr. Bob Mai</h3>
+                  <span class="meta-date">CEO &amp; Founder of Jung Talents</span>
+                  <p class="m-0">Mobile: <a href="tel:0467658839">0467658839</a></p>
+                  <p class="m-0">Email: <a href="mailto:bob.mai@jungtalents.com">bob.mai@jungtalents.com</a></p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="portfolio" class="my-5 py-5 bg-text" data-text="04">
+            <div class="section-header my-5" data-aos="fade-up">
+              <div class="row justify-content-center g-5">
+                <div class="col-lg-5">
+                  <span class="text-muted text-uppercase">some of my recent works</span>
+                  <h2 class="display-1 txt-fx slide-up">Project</h2>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-content py-4" data-aos="fade-up">
+              <div class="row">
+                <!-- Project 1 -->
+                <div class="glass col-lg-5 mb-lg-0 mb-4">
+                  <a href="https://duc-v.github.io/Pokemon-Dex/">
+                  <div class="image-holder mb-4">
+                    <div class="swiper portfolio-Swiper-Project-1">
+                      <div class="swiper-wrapper images">
+                        <div class="swiper-slide">
+                          <img src="images/pokemon/pokemon-homepage-4.png" alt="portfolio" class="img-fluid">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/pokemon/pokemon-homepage-3.png" alt="portfolio" class="img-fluid">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/pokemon/pokemon-homepage-2.png" alt="portfolio" class="img-fluid">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/pokemon/pokemon-homepage-1.png" alt="portfolio" class="img-fluid">
+                        </div>
+                      </div>
+                      <div class="swiper-pagination"></div>
+                      <div class="autoplay-progress-1">
+                        <svg viewBox="0 0 40 40">
+                          <circle cx="20" cy="20" r="16"></circle>
+                        </svg>
+                        <span></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="caption d-flex justify-content-between align-items-center mb-2 px-md-4 px-2">
+                    <h4 class="title">Pokemon Dex Project</h4>
+                    <a href="https://duc-v.github.io/Pokemon-Dex/" class="image-format bg-orange" target="_blank">Visit</a>
+                  </div>
+                  <div class="px-md-4 px-2">
+                    <p>A small website that show case pokemons a long with their evolutions and statistics.</p>
+                    <p><b>Technology used:</b> HTML, CSS, JavaScript</p>
+                  </div>
+                </a>
+                </div>
+                <div class="swiper-slide glass col-lg-2"></div>
+                <!-- Project 2 -->
+                <div class="glass col-lg-5">
+                  <div class="image-holder mb-4">
+                    <div class="swiper portfolio-Swiper-Project-2">
+                      <div class="swiper-wrapper images">
+                        <div class="swiper-slide">
+                          <img src="images/visualizer/visualizer-1.png" alt="portfolio" class="img-fluid">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/visualizer/visualizer-2.png" alt="portfolio" class="img-fluid">
+                        </div>
+                      </div>
+                      <div class="swiper-pagination"></div>
+                      <div class="autoplay-progress-2">
+                        <svg viewBox="0 0 40 40">
+                          <circle cx="20" cy="20" r="16"></circle>
+                        </svg>
+                        <span></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="caption d-flex justify-content-between align-items-center mb-2 px-md-4 px-2">
+                    <h4 class="title">Pathfinding Algorithms Visualizer</h4>
+                    <a href="https://carina-eye-care.vercel.app/" class="image-format bg-orange" target="_blank">Visit</a>
+                  </div>
+                  <div class="px-md-4 px-2">
+                    <p>This mini project helped me to understand Djikstra and Astar algorithms at a deeper level, these algorithms are the foundation for google maps.
+                    <p><b>Technology used:</b> C++, SFML Graphic Library</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="contact" class="my-5 py-5 bg-text" data-text="05">
+            <div class="container">
+              <div class="row justify-content-center mb-5">
+                <div class="col-lg-6" data-aos="fade-up">
+                  <span class="text-muted text-uppercase">Personal Info</span>
+                  <h2 class="display-1 txt-fx slide-up">Contact Me</h2>
+                  <ul>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/ducv/" target="_blank">https://www.linkedin.com/in/ducv/</a></li>
+                    <li>Gmail: <a href="mailto:ducvupprrt@gmail.com" target="_blank">ducvupprrt@gmail.com</a></li>
+                    <li>Mobile: <a href="tel:0474819999">0474 819 999</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
